@@ -3,7 +3,10 @@ Draadloze koffiezet
 
 Voor wie via zijn smartphone of computer de koffiezet wil starten.
 
-# onderdelen
+Er komt geen uitleg over wat Arduino en dergelijke is, je hebt best al een paar eenvoudige projectjes met de Arduino Uno achter de rug.
+Alles wat nieuw is voor de Yun, wordt uitgelegd.
+
+# Onderdelen
 - Arduino Yun
 - arduino 1.5 nodig (met Yun libraries)
 - twee 5v relays. Handig om er te gebruiken die al van een breakout-board voorzien zijn, bv deze http://www.dx.com/p/arduino-5v-relay-module-blue-black-121354
@@ -12,7 +15,7 @@ Voor wie via zijn smartphone of computer de koffiezet wil starten.
 - kabeltjes
 - breadboard
 
-# hacken van koffiezet
+# Hacken van koffiezet
 - Google op het model van je koffiezet + 'exploded design' of 'exploded view' Meestal vind je op die manier technische documentatie met waar de vijzen, clipjes zitten om je toestel open te breken. Voor de senseo staat de documentatie op: http://www.onderdelensenseo.nl/gebruiksaanwijzingen/philips-service-manual/963/hd-pdf.html
 - Zoek op het pcb naar waar de schakelaar(s) het circuit kortsluit(en) om dit via kabeltjes te verlengen (zie foto's) deze kabeltjes gaan dan in de relay die je aansluit op de Arduino.
 ![hacking van koffiezet](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/01-koffiezet-open.jpg)
@@ -20,7 +23,7 @@ Voor wie via zijn smartphone of computer de koffiezet wil starten.
 ![hacking van koffiezet](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/03-koffiezet-pcb-gehacked.jpg)
 ![hacking van koffiezet](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/04-koffiezet-draadjes.jpg)
 
-# connecties met arduino
+# Connecties met arduino
 - Zie onderstaand schema (de relays verbinden met de draadjes van de gehackte koffiezet)
 ![schema](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/howto/schema.png)
 - foto's van de schakeling:
@@ -28,7 +31,7 @@ Voor wie via zijn smartphone of computer de koffiezet wil starten.
 ![schakeling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/schakeling-arduino-breadboard.jpg)
 ![complete opstelling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/opstelling-compleet.jpg)
 
-# wifi instellen op de arduino Yun
+# Wifi instellen op de arduino Yun
 - Als de Arduino Yun nog niet geconfigureerd is, maakt hij zelf een wifi-netwerk met de naam 'Arduino Yun-XXXXXXXXXXXX'. Connecteer met dit wifi-netwerk.
 - Open de webpagina http://arduino.local. Je krijgt nu een pagina in arduino stijl met een formulier om in te loggen.
 ![stap 1](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/howto/stap01.png)
