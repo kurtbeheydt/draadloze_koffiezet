@@ -3,6 +3,8 @@ Draadloze koffiezet
 
 Voor wie via zijn smartphone of computer de koffiezet wil starten.
 
+![Samenvatting](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/howto/samenvatting.jpg)
+
 Er komt geen uitleg over wat Arduino en dergelijke is, je hebt best al een paar eenvoudige projectjes met de Arduino Uno achter de rug.
 Alles wat nieuw is voor de Yun, wordt uitgelegd.
 
