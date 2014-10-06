@@ -33,6 +33,8 @@ Alles wat nieuw is voor de Yun, wordt uitgelegd.
 - foto's van de schakeling:
 ![schakeling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/schakeling-breadboard.jpg)
 ![schakeling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/schakeling-arduino-breadboard.jpg)
+
+- **Let op: Je werkt met een toestel op 220v** Scherm de contactpunten af van de relay waar je de draadjes hebt aangebracht. Met isolatietape of misschien beter: Ga via een fablab en maak een behuizing op maat.
 ![complete opstelling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/opstelling-compleet.jpg)
 
 # Wifi instellen op de arduino Yun
@@ -59,7 +61,6 @@ Alles wat nieuw is voor de Yun, wordt uitgelegd.
 - Klik op de knop 'koffie!' om koffie te zetten.
 
 # Verder?
-- Misschien lukt het ook met transistors ipv relays
 - Het wordt nog interessanter als je een mini sd-kaartje in de arduino Yun steekt. op die manier kan je php, python, of andere scripting talen gebruiken als je stevigere code nodig hebt voor je projecten. Meer info: http://playground.arduino.cc/Hardware/Yun
 - Nu nog automatisch tas koffie laten brengen, nieuwe tas klaarzetten, ...
 
