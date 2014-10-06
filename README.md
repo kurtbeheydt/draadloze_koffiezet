@@ -19,6 +19,7 @@ Alles wat nieuw is voor de Yun, wordt uitgelegd.
 
 # Hacken van koffiezet
 - Google op het model van je koffiezet + 'exploded design' of 'exploded view' Meestal vind je op die manier technische documentatie met waar de vijzen, clipjes zitten om je toestel open te breken. Voor de senseo staat de documentatie op: http://www.onderdelensenseo.nl/gebruiksaanwijzingen/philips-service-manual/963/hd-pdf.html
+- Gebruik je gezond verstand en trek uiteraard de stekker van de koffiezet eruit voordat je het toestel open draait.
 - Zoek op het pcb naar waar de schakelaar(s) het circuit kortsluit(en) om dit via kabeltjes te verlengen (zie foto's) deze kabeltjes gaan dan in de relay die je aansluit op de Arduino.
 ![hacking van koffiezet](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/01-koffiezet-open.jpg)
 ![hacking van koffiezet](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/02-koffiezet-pcb.jpg)
@@ -28,6 +29,7 @@ Alles wat nieuw is voor de Yun, wordt uitgelegd.
 # Connecties met arduino
 - Zie onderstaand schema (de relays verbinden met de draadjes van de gehackte koffiezet)
 ![schema](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/howto/schema.png)
+- Het voltage
 - foto's van de schakeling:
 ![schakeling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/schakeling-breadboard.jpg)
 ![schakeling](https://raw.githubusercontent.com/nerdlandbe/draadloze_koffiezet/master/footage/schakeling-arduino-breadboard.jpg)
